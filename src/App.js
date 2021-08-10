@@ -6,7 +6,7 @@ import Becki from "./Components/becki";
 
 function App() {
   const name = "Becki Floyd";
-  const title = "Front End Developer";
+  const title = "UX Developer";
 
   return (
     <div className="App">
@@ -25,15 +25,19 @@ function App() {
           <div className="aboutme">
             <H1 heading="About Me" />
             
-            <p>Hi, I'm Becki!  
-              I am currently studying with the School of Code. 
-              <br></br>
-              <br></br>They are teaching me how to be
-              a front end developer aswell as all the skills that are needed to work the tech industry.
-              <br></br>
-              <br></br>
-              When im not coding I work at Citizens Advice, trying to make the world a better place. One day I hope to be able to use my new skills to help more people. 
-              
+            <p style={{
+              fontWeight: "700",
+              marginTop: "20px",
+              fontSize: "1.5em",
+              marginBottom: "20px"
+            }}>Hi, I'm Becki! 
+            </p>
+    <p>
+          
+            I am currently studying with the School of Code to learn how to become a front end developer.
+<br></br>
+<br></br>
+I am passionate about the UX design process and love coming up with creative solutions to solve problems.  
             </p>
             
             
