@@ -5,18 +5,25 @@ const Epics = (props) => {
   
   const [epics, setEpics] = useState([
     {
-      title: " School of Code ",
+      title: "Google UX Design Professional Certificate",
+      body: " Learning how to creatively solve users problems ",
+      years: "2021 - Present",
+      link: "https://www.coursera.org/professional-certificates/google-ux-design",
+      id: 6,
+    },
+    {
+      title: "School of Code",
       body: " Learnt how to create a new world ",
-      years: "2021",
+      years: "2021 - Present",
       link: "https://www.schoolofcode.co.uk/",
-      id: 1,
+      id: 5,
     },
     {
       title: " Citizens Advice ",
-      body: " If you got a problem, yo, I'll solve it! ",
+      body: " Solving problems for the most vulnerable in society ",
       years: "2003 - Present",
       link: "https://citizensadvicesandwell-walsall.org/",
-      id: 2,
+      id: 4,
       
     },
     {
@@ -28,18 +35,18 @@ const Epics = (props) => {
     },
 
     {
-      title: " Team Party Unicorn ",
-      body: " Creating bespoke niche events in and around Birmingham ",
+      title: "Team Party Unicorn",
+      body: "Creating bespoke niche events in and around Birmingham ",
       years: "2013 - 2016",
       link: "https://www.facebook.com/teampartyunicorn",
-      id: 3,
+      id: 2,
     },
     {
       title: " Roller Derby ",
       body: " ALL of the teams, ALL of the committees, ALL of the friends ",
       years: "2010 - 2016",
       link: "https://centralcityrollergirls.co.uk/",
-      id: 4,
+      id: 1,
     },
   ]);
 
